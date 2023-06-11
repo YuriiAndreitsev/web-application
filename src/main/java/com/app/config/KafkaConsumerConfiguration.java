@@ -24,6 +24,7 @@ public class KafkaConsumerConfiguration {
         properties.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
         properties.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringSerializer.class);
         properties.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringSerializer.class);
+        properties.put(ConsumerConfig.GROUP_ID_CONFIG, "testGroup");
         return properties;
     }
 

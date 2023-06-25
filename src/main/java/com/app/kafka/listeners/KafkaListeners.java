@@ -1,4 +1,4 @@
-package com.app.listeners.kafka;
+package com.app.kafka.listeners;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
